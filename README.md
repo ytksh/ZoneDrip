@@ -1,6 +1,5 @@
 # ZoneDrip
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+https://github.com/ytksh/ZoneDrip/assets/119751708/60a862d2-a8c8-4a7c-828e-a1e8d0f8abfa
 
 ## Development server
 
