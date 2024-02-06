@@ -1,0 +1,22 @@
+<div class="column gap-1 wrapper">
+    <img [src]="product.image" alt="Product image">
+    <h2 class="title">{{product.name}}</h2>
+    <div class="row gap-05">
+        <span class="price-label">Price:</span>
+        <span class="price">{{product.price}} ₽</span>
+    </div>
+
+    <p-rating 
+    [(ngModel)]="product.rating"
+    [readonly]="true"
+    [cancel]="false"
+    iconCancelClass="hidden"
+    >
+    <ng-template pTemplate="onicon">
+        <img src="https://static.wikia.nocookie.net/stalker/images/9/91/SoC_icon.png" width="25px" height="25px" />
+    </ng-template>
+    <ng-template pTemplate="officon">
+        <img src="https://static.wikia.nocookie.net/stalker/images/2/22/CS_icon.png" width="25px" height="25px" style="opacity: 0.5;" />
+    </ng-template>
+    </p-rating>
+</div>
