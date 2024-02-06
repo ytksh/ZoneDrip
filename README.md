@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Download and run the backend server to display the products and use the CRUD functionalities, read more in [Zonedrip-Server](https://github.com/ytksh/ZoneDrip-Server/tree/main)
 
 ## Code scaffolding
 
